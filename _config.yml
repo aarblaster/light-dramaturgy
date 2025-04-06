@@ -7,3 +7,14 @@ plugins:
 
 title: Light Dramaturgy
 description: A PhD by Anthony Arblaster being undertaken at the University of York. Supervised by Dr Katherine Graham and Dr Rebecca Benzie.
+
+# set up the menu
+nav:
+  - title: Home
+    url: /
+
+  - title: Contact
+    url: /contact/
+
+  - title: About
+    url: /about/
