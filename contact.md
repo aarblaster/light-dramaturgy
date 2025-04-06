@@ -5,7 +5,7 @@ permalink: /contact
 ---
 
 # Contact
-You can get in touch by emailing me at [anthony@anthonyarblaster.com](mailto:anthony@anthonyarblaster.com)
+You can get in touch by emailing me at [_anthony@anthonyarblaster.com_](mailto:anthony@anthonyarblaster.com)
 
 You can also find me in the following places:
 - [Mastodon](https://mastodonapp.uk/@aarblaster)
