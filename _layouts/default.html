@@ -39,11 +39,19 @@
         </ul>
         {% endif %}
       </header>
+      <nav>
+  			<ul>
+   			 {% for item in site.nav %}
+      		<li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+   			 {% endfor %}
+ 			 </ul>
+		</nav>
       <section>
 
       {{ content }}
 
       </section>
+      
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
