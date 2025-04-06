@@ -5,7 +5,9 @@ permalink: /contact
 ---
 
 # Contact
-You can get in touch by emailing me at [<u>anthony@anthonyarblaster.com</u>](mailto:anthony@anthonyarblaster.com)
+You can get in touch by emailing me at [anthony@anthonyarblaster.com](mailto:anthony@anthonyarblaster.com).
+
+If your enquiry is about lighting design opportunities please [contact my agent](mailto:info@mrmanagement.net).
 
 You can also find me in the following places:
 - [Mastodon](https://mastodonapp.uk/@aarblaster)
