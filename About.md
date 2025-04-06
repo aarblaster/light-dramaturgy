@@ -5,6 +5,7 @@ permalink: /about
 ---
 
 # About
+![Anthony in a green shirt with short curly hair.](assets/img/2025-04-06_AA_Headshot.jpg)
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
 I am originally from Ngunnawal and Ngambri Country, Australia. 
