@@ -19,3 +19,12 @@ I live and work in London as an educator and Lighting Designer. You can find out
 
 ## About the PhD
 This PhD is by creative practice through the School of Arts and Creative Technologies at the University of York.
+It is supervised by Dr Katherine Graham and Dr Rebecca Benzie. 
+I am still finalising the title of the PhD.
+
+The PhD focuses on developing a dramaturgical tool kit for lighting designers to use while creating work. 
+It isn't focused on the final product – rather it aims to be a tool for practice. 
+
+The PhD will be undertaken through practice-based research which will ensure that my arts practice sits inside and around the research.
+
+You can find out more about the [PhD in Theatre, Film, Television and Interactive Media (by creative practice)](https://www.york.ac.uk/arts-creative-technologies/study/theatre-film-television-research-degrees/phd-theatre-film-tv-interactive-media-by-creative/) on the University of York website.
