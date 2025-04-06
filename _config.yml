@@ -14,10 +14,10 @@ nav:
     url: /
 
   - title: Contact
-    url: /contact/
+    url: /contact
 
   - title: About
-    url: /about/
+    url: /about
 
 # exclude
 exclude: 
