@@ -5,10 +5,7 @@ permalink: /
 ---
 
 # Welcome
-<img src="assets/img/Unbecomming-0006 banner@0.5x-2" alt="A woman is lit from one side while she glances at her hand.">
-
-<p><small>Unbecoming by Cathy Pecotz | Dir. Cathy Pecotz | Canberra Theatre Centre | Courtyard Studio | Photo: Shelly Higgs | Isobel Burton<small></p>
-
+<img src="assets/img/Unbecomming-0006-banner@0.5x-2" alt="A woman is lit from one side while she glances at her hand.">
 
 Welcome to Light Dramaturgy. My name is Anthony. This is the home for a PhD I'm undertaking at the University of York. I'm an educator and lighting designer from Ngunnawal and Ngambri Country, Australia. You can find out more about me on my [main site](anthonyarblaster.com/about). Or you can find out more about [this project.](https://phd.anthonyarblaster.com/about)
 
