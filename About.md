@@ -1,3 +1,8 @@
+---
+title: About
+layout: default
+---
+
 # About
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
