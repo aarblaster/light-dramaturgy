@@ -1,13 +1,6 @@
 # Welcome
-Welcome to Light Dramaturgy. This is the home for a PhD being completed by Anthony Arblaster at the University of York. I'm an educator and lighting designer from Ngunnawal and Ngambri Country, Australia. You can [find out more about me here.](anthonyarblaster.com/about)
+This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). These pages will grow as my PhD advances.
 
-My PhD is just beginning, but as it progresses you can keep up to date with my progress here.
-
-## Links
-- [Mastodon](https://mastodonapp.uk/@aarblaster) 
-- [GitHub](https://github.com/aarblaster) 
-- [anthonyarblaster.com](https://anthonyarblaster.com)
-- [codebyanthony.com](https://codebyanthony.com)
 
 
 
