@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 # About
-<img src="assets/img/2025-04-06_AA_Headshot.jpg" alt="A photo of Anthony." height="200">
+<img src="assets/img/2025-04-06_AA_Headshot.jpg" alt="A photo of Anthony." height="200" width="200">
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
 I am originally from Ngunnawal and Ngambri Country, Australia. 
