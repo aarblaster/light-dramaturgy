@@ -13,11 +13,11 @@ nav:
   - title: Home
     url: /
 
-  - title: Contact
-    url: /contact
-
   - title: About
     url: /about
+
+  - title: Contact
+    url: /contact
 
 # exclude
 exclude: 
