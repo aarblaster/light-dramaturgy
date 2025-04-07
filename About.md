@@ -19,7 +19,7 @@ I live and work in London as an educator and Lighting Designer. You can find out
 
 Or you can follow me on social media:
 
-{ % include social-links.html % }
+{% include social-links.html %}
 
 
 ## About the PhD
