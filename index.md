@@ -17,3 +17,8 @@ You can find me in all the usual places on the web including:
 - [anthonyarblaster.com](https://anthonyarblaster.com) for my design and teaching;
 - [codebyanthony.com](https://codebyanthony.com) for my apps and software;
 - or you can find [all the links](https://anthonyarblaster.com/linktree).
+
+
+
+
+{% include social-links.html %}
