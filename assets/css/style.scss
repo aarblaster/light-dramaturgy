@@ -3,6 +3,7 @@
 
 @import "jekyll-theme-minimal";
 
+// Navigation CSS
 nav ul {
   list-style: none;
   padding: 0;
@@ -19,4 +20,26 @@ nav li.active a {
   font-weight: bold;
   text-decoration: underline;
   color: #000;
+}
+
+// Social Links CSS
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.social-links li a {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: #444;
+}
+
+.social-links li a:hover {
+  text-decoration: underline;
 }
