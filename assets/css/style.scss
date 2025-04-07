@@ -23,29 +23,50 @@ nav li.active a {
 }
 
 // Social Links CSS
-.social-links svg {
-  fill: #000; /* Force all icons to black */
-  transition: fill 0.3s ease;
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }
 
-.social-links li a:hover svg {
-  fill: #444; /* Slight change on hover */
+.social-links li {
+  display: flex;
+  align-items: center;
 }
 
-.social-links li a {
+.social-links a {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
-  color: #000;
+  color: black;
+  font-weight: 500;
 }
 
-.social-links {
-  list-style: none;
-  padding: 0;
-  margin: 1rem 0;
+.icon-container {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #ccc;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
+
+.icon-container svg {
+  fill: #000;
+  width: 100%;
+  height: 100%;
+}
+
+.mastodon-icon svg {
+  transform: rotate(180deg);
+}
+
 
