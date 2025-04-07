@@ -19,6 +19,9 @@ nav:
   - title: Contact
     url: /contact
 
+  - title: Thanks
+    url: /thanks
+ 
 # exclude
 exclude: 
 - READEME.md
