@@ -23,9 +23,10 @@ Or you can follow me on social media:
 
 
 ## About the PhD
+The preliminary title is: **Towards a Light Dramaturgy: Techniques and Practice of Dramaturgy as Lighting Design**
+
 This PhD is by creative practice through the School of Arts and Creative Technologies at the University of York.
-It is supervised by Dr Katherine Graham and Dr Rebecca Benzie. 
-I am still finalising the title of the PhD.
+It is supervised by [Dr Katherine Graham](https://www.york.ac.uk/arts-creative-technologies/people/katherine/) and [Dr Rebecca Benzie](https://www.york.ac.uk/arts-creative-technologies/people/rebecca-benzie/), both at the School of ACT. 
 
 The PhD focuses on developing a dramaturgical tool kit for lighting designers to use while creating work. 
 It isn't focused on the final product – rather it aims to be a tool for practice. 
