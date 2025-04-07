@@ -17,6 +17,11 @@ After completing a Bachelor of Arts and Bachelor of Laws at the [Australian Nati
 
 I live and work in London as an educator and Lighting Designer. You can find out more about me and my Lighting Design work, at [anthonyarblaster.com.](https://anthonyarblaster.com)
 
+Or you can follow me on social media:
+
+{ % include social-links.html % }
+
+
 ## About the PhD
 This PhD is by creative practice through the School of Arts and Creative Technologies at the University of York.
 It is supervised by Dr Katherine Graham and Dr Rebecca Benzie. 
