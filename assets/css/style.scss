@@ -23,13 +23,13 @@ nav li.active a {
 }
 
 // Social Links CSS
-.social-links {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin: 1rem 0;
+.social-links svg {
+  fill: #000; /* Force all icons to black */
+  transition: fill 0.3s ease;
+}
+
+.social-links li a:hover svg {
+  fill: #444; /* Slight change on hover */
 }
 
 .social-links li a {
@@ -37,9 +37,15 @@ nav li.active a {
   align-items: center;
   gap: 0.5rem;
   text-decoration: none;
-  color: #444;
+  color: #000;
 }
 
-.social-links li a:hover {
-  text-decoration: underline;
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+
