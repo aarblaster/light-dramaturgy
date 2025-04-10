@@ -55,12 +55,6 @@ nav li.active a {
   align-items: center;
 }
 
-.icon-container svg {
-  fill: #000;
-  width: 100%;
-  height: 100%;
-}
-
 // Small social links
 .social-links-small {
   list-style: none;
@@ -83,7 +77,7 @@ nav li.active a {
   text-decoration: none;
   color: black;
   font-weight: 300;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 
 .icon-container-small {
@@ -92,12 +86,6 @@ nav li.active a {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.icon-container-small-svg {
-  fill: #000;
-  width: 50%;
-  height: 50%;
 }
 
 // Footer formatting
