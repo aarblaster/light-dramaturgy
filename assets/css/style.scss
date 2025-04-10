@@ -61,7 +61,43 @@ nav li.active a {
   height: 100%;
 }
 
+// Small social links
+.social-links-small {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
 
+.social-links-small li {
+  display: flex;
+  align-items: center;
+}
 
+.social-links-small a {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 0.5rem;
+}
+
+.icon-container-small {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container-small-svg {
+  fill: #000;
+  width: 50%;
+  height: 50%;
+}
 
 
