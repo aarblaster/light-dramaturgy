@@ -34,3 +34,9 @@ It isn't focused on the final product – rather it aims to be a tool for practi
 The PhD will be undertaken through practice-based research which will ensure that my arts practice sits inside and around the research.
 
 You can find out more about the [PhD in Theatre, Film, Television and Interactive Media (by creative practice)](https://www.york.ac.uk/arts-creative-technologies/study/theatre-film-television-research-degrees/phd-theatre-film-tv-interactive-media-by-creative/) on the University of York website.
+
+## About This Site
+This webpage will be the repository for shared documents, tools and information arrising out of the PHD. 
+The exact shape of this site will come into focus as I move through the early stages of the PhD.
+The site is built using GitHub Pages, and is hosted [@aarblaster/light-dramaturgy](https://github.com/aarblaster/light-dramaturgy), where you can [report an issue](https://github.com/aarblaster/light-dramaturgy/issues) and view the source code for this site.
+You can also read the site's [privacy policy](/privacy) and more on the website.
