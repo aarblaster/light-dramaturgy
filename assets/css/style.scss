@@ -101,21 +101,3 @@ nav li.active a {
 }
 
 // Footer formatting
-.footer-custom {
-    list-style: none;
-  padding: 0;
-  margin: 2rem 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.footer-custom a {
-	  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  text-decoration: none;
-  color: black;
-  font-weight: 300;
-  font-size: 0.5rem;
-}
