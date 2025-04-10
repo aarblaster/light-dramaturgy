@@ -1,19 +1,20 @@
 <ul class="footer">
-		<!--- Footer text in the _config.yml --->
-	    <p><small>{{ site.footer | default: Made by Anthony }}<small></p>
+	<!--- Footer text in the _config.yml --->
+	<p><small>{{ site.footer | default: Made by Anthony }}<small></p>
 
-	
-	    <!--- The list of small menu links. --->
-     	<p><small><a 
+	 <!--- The list of small menu links. --->
+     <p><small><a 
      				href="https://phd.anthonyarblaster.com/privacy">Privacy</a>
      			 <a 
      			 	href="https://phd.anthonyarblaster.com/contact">Contact</a>
-     	<small></p>
+     <small></p>
 	
-     	<!--- This is the Creative Commons Licence --->
-     	<p xmlns:cc="http://creativecommons.org/ns#" 
+	{% include social-links-small %}
+	
+    <!--- This is the Creative Commons Licence --->
+    <p xmlns:cc="http://creativecommons.org/ns#" 
         	xmlns:dct="http://purl.org/dc/terms/">
-        <small><a
+    <small><a
         	 property="dct:title" rel="cc:attributionURL" href="http://phd.anthonyarblaster.com">Light Dramaturgy</a> 
         	 by <a rel="cc:attributionURL dct:creator" 
         	 		property="cc:attributionName" 
@@ -33,5 +34,6 @@
         	 	style="height:12px!important;margin-left:3px;vertical-align:text-bottom;"
         	 	src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" 
         	 	alt=""></a>
-        <small></p>
+    <small></p>
+    
 </ul>

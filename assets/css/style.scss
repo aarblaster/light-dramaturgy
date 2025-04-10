@@ -100,4 +100,12 @@ nav li.active a {
   height: 50%;
 }
 
-
+// Footer formatting
+.footer {
+  align-items: left;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 200;
+  font-size: 0.5rem;
+}
