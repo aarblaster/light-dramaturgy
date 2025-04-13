@@ -8,7 +8,7 @@ permalink: /about
 <img src="assets/img/2025-04-06_AA_Headshot.jpg" alt="A photo of Anthony." height="200" width="200">
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
-I am originally from Ngunnawal and Ngambri Country, Australia. 
+I am originally from [Ngunnawal and Ngambri Country, Australia](/about/aoc). 
 
 ## About Anthony
 I started this PhD in 2025, while continuing teaching at the [Royal Academy of Dramatic Art](https://rada.ac.uk), in London. I teach lighting design, production electrics and programming on the Academy's practice-based courses. 
