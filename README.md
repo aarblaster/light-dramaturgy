@@ -1,6 +1,8 @@
+[![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15276039)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/aarblaster/light-dramaturgy/total)
+
 # Welcome
 This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). These pages will grow as my PhD advances.
-
 
 
 
