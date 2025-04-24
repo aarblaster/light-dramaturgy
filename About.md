@@ -38,5 +38,10 @@ You can find out more about the [PhD in Theatre, Film, Television and Interactiv
 ## About This Site
 This webpage will be the repository for shared documents, tools and information arrising out of the PHD. 
 The exact shape of this site will come into focus as I move through the early stages of the PhD.
+
+### Problems and Improvements
 The site is built using GitHub Pages, and is hosted [@aarblaster/light-dramaturgy](https://github.com/aarblaster/light-dramaturgy), where you can [report an issue](https://github.com/aarblaster/light-dramaturgy/issues) and view the source code for this site.
-You can also read the site's [privacy policy](/privacy) and more on the website.
+
+### Referencing
+This project is archived using [Zenodo](https://zenodo.org) the open repository from CERN. 
+To reference this site you can use DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039).
