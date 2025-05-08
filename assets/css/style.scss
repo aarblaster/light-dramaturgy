@@ -3,24 +3,7 @@
 
 @import "{{ site.theme }}";
 
-// Navigation CSS
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
-}
 
-nav li a {
-  text-decoration: none;
-  color: #333;
-}
-
-nav li.active a {
-  font-weight: bold;
-  text-decoration: underline;
-  color: #000;
-}
 
 // Social Links CSS
 .social-links {

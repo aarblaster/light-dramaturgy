@@ -1,14 +1,20 @@
 [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15276039)
 
 # Welcome
-This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). These pages will grow as my PhD advances.
+This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). 
+These pages will grow as my PhD advances. The site is built using GitHub Pages and a Jekyll theme.
 
-## Referencing
+
+## About the Project
+### Archive
 This project is archived using [Zenodo](https://zenodo.org) the open repository from CERN. 
-To reference this site you can use DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039).
+You can download or reference using DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039).
 
-## Find out more
-You can find out more by visiting the site's [about page](phd.anthonyarblaster.com/about).
+### Dependancies
+This site is built using the Jekyll theme [Dinky](https://github.com/pages-themes/dinky).  
+
+### Find out more
+You can find out more about the PhD that gives rise to these files by visiting the site's [about page](phd.anthonyarblaster.com/about).
 
 ## Bugs, Issues, Improvements
 Bugs reporting and suggestions for improvements are welcome.
