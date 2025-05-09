@@ -25,6 +25,9 @@
   align-items: center;
   gap: 0.4rem;
   text-decoration: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .icon-container {
@@ -35,6 +38,20 @@
   align-items: center;
   color: white;
 }
+
+.social-links img {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+// Added to enable the focus when being used by a keyboard.
+.social-links a:focus {
+  outline: 2px solid #007acc; /* or any custom visible color */
+  outline-offset: 2px;
+}
+
+
 
 // Small social links
 .social-links-small {
@@ -59,6 +76,9 @@
   color: black;
   font-weight: 500;
   font-size: 0.47rem;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .icon-container-small {
@@ -68,5 +88,18 @@
   justify-content: center;
   align-items: center;
 }
+
+.social-links-small img {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+// Added to enable the focus when being used by a keyboard.
+.social-links-small a:focus {
+  outline: 2px solid #007acc; /* or any custom visible color */
+  outline-offset: 2px;
+}
+
 
 // Footer formatting
