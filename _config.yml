@@ -6,7 +6,7 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: Light Dramaturgy
-description: A PhD by Anthony Arblaster being at the University of York.
+description: A PhD by Anthony Arblaster at the University of York.
 
 # set up the menu
 nav:

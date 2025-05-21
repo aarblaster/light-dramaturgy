@@ -17,12 +17,10 @@ My PhD is just beginning, but as it progresses you can keep up to date with my p
 
 ## Links
 You can find me in all the usual places on the web including:
-- [Mastodon](https://mastodonapp.uk/@aarblaster) for general musings;
 - [anthonyarblaster.com](https://anthonyarblaster.com) for my design and teaching;
 - [codebyanthony.com](https://codebyanthony.com) for my apps and software;
-- or you can find [all the links](https://anthonyarblaster.com/linktree).
-
-
+- [0009-0005-0404-0645](https://orcid.org/0009-0005-0404-0645) is my ORCID number;
+- or you can find [all my links here](https://anthonyarblaster.com/linktree).
 
 
 {% include social-links.html %}
