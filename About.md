@@ -36,6 +36,12 @@ The PhD will be undertaken through practice-based research which will ensure my 
 
 You can find out more about the [PhD in Theatre, Film, Television and Interactive Media (by creative practice)](https://www.york.ac.uk/arts-creative-technologies/study/theatre-film-television-research-degrees/phd-theatre-film-tv-interactive-media-by-creative/) on the University of York website.
 
+### Tools
+I use a number of tools for managing and conducting my research. I use [Zotero](https://zotoero.org) a free, open source citation manager. 
+I also use [Obsidian](https://obsidian.md) for note taking and writing.
+
+![The Zotero logo](/assets/img/zotero-logo-128x31.png)
+
 ## About This Site
 This webpage will be the repository for shared documents, tools and information arrising out of the PHD. 
 The exact shape of this site will come into focus as I move through the early stages of the PhD.
