@@ -1,4 +1,6 @@
 [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15276039)
+![Github Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github%20Pages&logoColor=white)
+
 
 # Welcome
 This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). 
