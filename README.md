@@ -1,5 +1,4 @@
-![DOI](https://zenodo.org/badge/961492842.svg)
-
+[![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15684581)
 
 # Welcome
 This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). 
