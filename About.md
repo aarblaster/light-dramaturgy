@@ -36,6 +36,8 @@ The PhD will be undertaken through practice-based research which will ensure my 
 
 You can find out more about the [PhD in Theatre, Film, Television and Interactive Media (by creative practice)](https://www.york.ac.uk/arts-creative-technologies/study/theatre-film-television-research-degrees/phd-theatre-film-tv-interactive-media-by-creative/) on the University of York website.
 
+This project is being conducted according to restrictions that have been subject to approval by the School of Arts and Creative Technologies Ethics committee. The Chair of the ACT Ethics committee can be contacted on [ACT-ethics@york.ac.uk](mailto:act-ethics@york.ac.uk).
+
 ### Tools
 I use a number of tools for managing and conducting my research. I use [Zotero](https://zotoero.org) a free, open source citation manager. 
 I also use [Obsidian](https://obsidian.md) for note taking and writing.
