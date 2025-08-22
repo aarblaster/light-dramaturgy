@@ -11,7 +11,7 @@ This project is archived using [Zenodo](https://zenodo.org) the open repository 
 You can download or reference using DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039).
 
 ### Dependancies
-This site is built using the Jekyll theme [Dinky](https://github.com/pages-themes/dinky).  
+This site is built using Github Pages, Jykell and [AcademicPages](https://github.com/academicpages/academicpages.github.io)
 
 ### Find out more
 You can find out more about the PhD that gives rise to these files by visiting the site's [about page](phd.anthonyarblaster.com/about).
