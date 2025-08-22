@@ -1,7 +1,4 @@
-layout: post
 title: "Hello World"
-date: 2025-05-21 14-04-03s +0100
-categories: general
 ---
 
 # Hello, World
