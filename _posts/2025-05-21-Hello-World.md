@@ -1,4 +1,12 @@
-title: "Hello World"
+layout: single
+title:  "Hello World!"
+header:
+  teaser: ""
+categories: 
+  - introduction
+tags:
+  - dramaturgy
+  - lighting-design
 ---
 
 # Hello, World

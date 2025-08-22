@@ -10,14 +10,12 @@ redirect_from:
 ![A woman facing into the light with an outstretched hand.](images/Unbecomming-0006-banner@0.5x-2.jpg)
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
-I am originally from [Ngunnawal and Ngambri Country, Australia](/aoc). 
+I am originally from [Ngunnawal and Ngambri Country, Australia](/aoc). This site is the home of my PhD at the University of York. 
+The PhD is focused on developing a dramaturgical toolkit for lighting designers. Tools within their own designs and inside the broader production.
 
 ## About Anthony
 I started this PhD in 2025, while continuing teaching at the [Royal Academy of Dramatic Art](https://rada.ac.uk), in London. 
 I teach lighting design, production electrics and programming on the Academy's practice-based courses. 
-After completing a Bachelor of Arts and Bachelor of Laws at the [Australian National University](https://anu.edu.au), I moved to London. 
-In 2012 I completed a Postgraduate Diploma in Stage Electrics and Lighting Design at RADA. 
-
 
 I live and work in London as an educator and Lighting Designer. You can find out more about me and my Lighting Design work, at [anthonyarblaster.com.](https://anthonyarblaster.com)
 
@@ -40,7 +38,7 @@ This project is being conducted according to restrictions that have been subject
 I use a number of tools for managing and conducting my research. I use [Zotero](https://zotoero.org) a free, open source citation manager. 
 I also use [Obsidian](https://obsidian.md) for note taking and writing.
 
-![The Zotero logo](/assets/img/zotero-logo-128x31.png)
+![The Zotero logo](/images/zotero-logo-128x31.png)
 
 ## About This Site
 This webpage will be the repository for shared documents, tools and information arrising out of the PHD. 
