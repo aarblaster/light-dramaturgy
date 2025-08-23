@@ -2,10 +2,7 @@
 permalink: /aoc
 title: "Acknowledgement of Country"
 author_profile: true
-redirect_from: 
-  - /acknowledgement-of-country
-  - /aoc.html
-  - /about/aoc
+
 ---
 
 I am an Australian artist and academic. I grew up, lived, worked and have had holidays in the place now called Australia.
