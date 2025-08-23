@@ -11,10 +11,16 @@ redirect_from:
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
 I am originally from [Ngunnawal and Ngambri Country, Australia](/aoc). This site is the home of my PhD at the University of York. 
-The PhD is focused on developing a dramaturgical toolkit for lighting designers. Tools within their own designs and inside the broader production.
+The PhD is focused on developing a dramaturgical toolkit for lighting designers. Tools that can be used within their own designs and inside the broader production.
+
+The research will involve interviews with other practicing Lighting Designers, to capture the detail of their processes. Finding out what has worked, but also, crucially, what hasn't. The research will also pull in research from the existing research into dramaturgy by directors, actors and designers. Research that will inform my practice and the work I do inside production processes.
+
+The research is being conducted at the University of York, but is also supported by the [Royal Academy of Dramatic Art (RADA)](https://rada.ac.uk). RADA is providing access to production processes, and support for my research.
+
 
 ## About Anthony
-I started this PhD in 2025, while continuing teaching at the [Royal Academy of Dramatic Art](https://rada.ac.uk), in London. 
+I started this PhD in 2025, while continuing teaching at the [RADA](https://rada.ac.uk), in London.
+As Deputy Head of Lighting, and Course Leader for the MA Performance Lighting Design, I am jointly responsible for all teaching and learning about lighting in the Academy. Both within Technical Theatre Arts (TTA) programmes, and across the Academy's courses.
 I teach lighting design, production electrics and programming on the Academy's practice-based courses. 
 
 I live and work in London as an educator and Lighting Designer. You can find out more about me and my Lighting Design work, at [anthonyarblaster.com.](https://anthonyarblaster.com)
@@ -25,10 +31,6 @@ The preliminary title is: **Towards a Light Dramaturgy: Techniques and Practice 
 
 This PhD is by creative practice at the School of Arts and Creative Technologies at the University of York.
 It is supervised by [Dr Katherine Graham](https://www.york.ac.uk/arts-creative-technologies/people/katherine/) and [Dr Rebecca Benzie](https://www.york.ac.uk/arts-creative-technologies/people/rebecca-benzie/), both at the School of ACT. 
-
-The PhD focuses on developing a dramaturgical tool kit for lighting designers to use while creating work. 
-It isn't focused on the final product – rather it aims to be a tool for practice. 
-The PhD will be undertaken through practice-based research which will ensure my research retains value for practitioners.
 
 You can find out more about the [PhD in Theatre, Film, Television and Interactive Media (by creative practice)](https://www.york.ac.uk/arts-creative-technologies/study/theatre-film-television-research-degrees/phd-theatre-film-tv-interactive-media-by-creative/) on the University of York website.
 

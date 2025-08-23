@@ -1,9 +1,10 @@
+---
 layout: single
 title:  "Hello World!"
 header:
-  teaser: ""
+  teaser: "Unbecomming-0006-banner@0.5x-2.jpg"
 categories: 
-  - introduction
+  - PhD
 tags:
   - dramaturgy
   - lighting-design
