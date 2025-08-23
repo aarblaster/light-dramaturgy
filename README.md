@@ -8,13 +8,14 @@ These pages will grow as my PhD advances. The site is built using GitHub Pages a
 ## About the Project
 ### Archive
 This project is archived using [Zenodo](https://zenodo.org) the open repository from CERN. 
-You can download or reference using DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039).
+You can download or reference using DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039). The site is designed so that the material on it and the source code is accessible for future researchers and lighting design practitioners.
 
 ### Dependancies
-This site is built using Github Pages, Jykell and [AcademicPages](https://github.com/academicpages/academicpages.github.io)
+
+This site is built using Github Pages, [Jykell](http://jekyllrb.com/) and [AcademicPages](https://github.com/academicpages/academicpages.github.io), a fork of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
 
 ### Find out more
-You can find out more about the PhD that gives rise to these files by visiting the site's [about page](phd.anthonyarblaster.com/about).
+You can find out more about the PhD that gives rise to these files by visiting the site [homepage](phd.anthonyarblaster.com).
 
 ## Bugs, Issues, Improvements
 Bugs reporting and suggestions for improvements are welcome.
