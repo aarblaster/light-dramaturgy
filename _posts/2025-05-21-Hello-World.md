@@ -10,7 +10,6 @@ tags:
   - lighting-design
 ---
 
-# Hello, World
 This is the first blog post on this site as a proof of concept. 
 As the site gets more complex I am expecting that these posts will become a way of sharing materials from my PhD.
 I am also hoping that this will offer me a way of reflecting on the process of doing the PhD.

@@ -10,10 +10,8 @@ tags:
   - phd-process
 ---
 
-## Ethics Approvals
-
-I have successfully received ethics approval on this project. 
-To ensure participants can access the Participant Information Sheets easily and for prosterity,
+I have successfully received ethics approval for my PhD. 
+To ensure participants can access the Participant Information Sheets easily and for posterity, I thought it would be a good idea to have them available on this site.
 
 The following files are available:
 - [Interview Participant Information Sheet](/files/2025-08-18_Participant_Project_Information_Sheet_-Non-Anonymous-_Staff_And_Pgr_Act_June2024_Arblaster.pdf)
