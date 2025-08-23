@@ -13,7 +13,7 @@ title                    : "Light Dramaturgy"
 title_separator          : "-"
 name                     : &name "Anthony Arblaster"
 description              : &description "Lighting Designer and Educator"
-url                      : https://phd.anthonyarblaster.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://phd.anthonyarblaster.com # the base hostname & protocol for your site. Has to be the actual URL.
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/aarblaster/light-dramaturgy"
 
@@ -28,7 +28,7 @@ author:
   bio              : "PhD Researcher at the University of York."
   location         : "London"
   employer         : "Royal Academy of Dramatic Art"
-  uri              : "anthonyarblaster.com"
+  uri              : "https://anthonyarblaster.com"
   email            : "czw527@york.ac.uk" 
 
   # Academic websites
