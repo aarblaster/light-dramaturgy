@@ -9,14 +9,9 @@ redirect_from:
 	- /terms/
 ---
 
-{% include base_path %}
-{% include toc %}
+The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used. I will never share your email address or any other personal information to anyone without your direct consent.
 
-## Privacy Policy
-
-The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used.
-
-First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
+Please note, these terms are different than those for praticipants in the research. If you are a praticipant you can read the Participant INformation Sheet you were provided or view them [on this blog post](https://phd.anthonyarblaster.com/phd/Ethics-Documents/).
 
 ### Log Files
 
