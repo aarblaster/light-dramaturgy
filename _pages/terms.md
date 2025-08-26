@@ -1,12 +1,7 @@
 ---
 permalink: /terms
 title: "Terms and Privacy Policy"
-modified: 2025-08-22
-redirect_from:
-	- /privacy
-	- /privacy.html
-	- /terms.html
-	- /terms/
+author_profile: true
 ---
 
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used. I will never share your email address or any other personal information to anyone without your direct consent.
