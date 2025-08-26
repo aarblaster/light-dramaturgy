@@ -12,4 +12,4 @@ This project is being conducted according to restrictions that have been subject
 
 In the first instance, please contact me, I'll be happy to answer all your questions.
 
-{% include social_horiz %}
+{% include social_horiz.html %}
