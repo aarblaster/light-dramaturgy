@@ -2,6 +2,7 @@
 permalink: /contact
 title: "Contact"
 author_profile: true
+
 ---
 
 This project is being undertaken by me, Anthony Arblaster, a doctoral researcher at the University of York. You can contact me by email at [czw527@york.ac.uk](mailto:czw527@york.ac.uk).

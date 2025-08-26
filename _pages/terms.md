@@ -45,7 +45,7 @@ The materials on this site are all able to be licensed using Creative Commons At
 
 If you wish to use the materials for any other purpose, you will need to [contact me](/contact). If you are a researcher and need to access data for this project, with DOI records, please visit the Zenodo Community [Towards a Light Dramaturgy](https://zenodo.org/communities/light-dramaturgy/).
 
-This site is archived at [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15684581).
+This site is archived at [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15684581)
 
 ## Research Participants
 
