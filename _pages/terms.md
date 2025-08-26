@@ -4,11 +4,13 @@ title: "Terms and Privacy Policy"
 author_profile: true
 ---
 
+{% include toc %}
+
 The privacy of my visitors is extremely important. This Privacy Policy outlines the types of personal information that is received and collected and how it is used. I will never share your email address or any other personal information to anyone without your direct consent.
 
 Please note, these terms are different than those for praticipants in the research. If you are a praticipant you can read the Participant INformation Sheet you were provided or view them [on this blog post](https://phd.anthonyarblaster.com/phd/Ethics-Documents/).
 
-### Log Files
+## Log Files
 
 Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
 
@@ -25,9 +27,16 @@ All of this information is not linked to anything that is personally identifiabl
 
 This site doesn't use cookies.
 
-#### Telemetry Deck
+### Telemetry Deck
 
 I use TelemetryDeck to collect anonymized usage data. This helps me understand how visitors are using this site and how we can improve it. TelemetryDeck does not collect any personally identifiable information. 
 I chose TelemetryDeck because of their commitment to privacy, and the privacy-first approach they take to website and app usage information. 
 If you have a site, or app, you should definitely check them out. Plus they are lovely people. Find them at [telemetrydeck.com](https://telemetrydeck.com)
 You can read more about TelemetryDeck's privacy policy at [telemetrydeck.com/privacy](https://telemetrydeck.com/privacy)
+
+## Use of Materials and Licence
+The materials on this site are all able to be licensed using Creative Commons Attribution-NonCommercial 4.0 International, also known as [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/). You can view the full licence, complete with legalese, [on the Creative Commons Website](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en).
+
+If you wish to use the materials for any other purpose, you will need to [contact me](/contact). If you are a researcher and need to access data for this project, with DOI records, please visit the Zenodo Community [Towards a Light Dramaturgy](https://zenodo.org/communities/light-dramaturgy/).
+
+This site is archived at [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15684581).
