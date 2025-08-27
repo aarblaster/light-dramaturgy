@@ -19,11 +19,11 @@ The research is being conducted at the University of York, but is also supported
 
 
 ## About Anthony
-I started this PhD in 2025, while continuing teaching at [RADA](https://rada.ac.uk) in London.
+I started this PhD in 2025, while teaching at [RADA](https://rada.ac.uk) in London.
 As Deputy Head of Lighting, and Course Leader for the MA Performance Lighting Design, I am jointly responsible for all teaching and learning about lighting in the Academy. Both within Technical Theatre Arts (TTA) programmes, and across the Academy's courses.
-I teach lighting design, production electrics and programming on the Academy's practice-based courses. 
+Covering the full range of lighting design and technology, my teaching and research are intertwined.
 
-I live and work in London as an educator and Lighting Designer. You can find out more about me and my Lighting Design work, at [anthonyarblaster.com.](https://anthonyarblaster.com)
+You can find out more about me and my Lighting Design work, at [anthonyarblaster.com.](https://anthonyarblaster.com)
 
 
 ## About the PhD
@@ -36,20 +36,24 @@ You can find out more about the [PhD in Theatre, Film, Television and Interactiv
 
 This project is being conducted according to restrictions that have been subject to approval by the School of Arts and Creative Technologies Ethics committee. The Chair of the ACT Ethics committee can be contacted on [ACT-ethics@york.ac.uk](mailto:act-ethics@york.ac.uk).
 
-### Tools
-I use a number of tools for managing and conducting my research. I use [Zotero](https://zotoero.org) a free, open source citation manager. 
-I also use [Obsidian](https://obsidian.md) for note taking and writing.
-
-![The Zotero logo](/images/zotero-logo-128x31.png)
-
 ## About This Site
 This webpage will be the repository for shared documents, tools and information arrising out of the PHD. 
 The exact shape of this site will come into focus as I move through the early stages of the PhD.
 I hope it will be a home for recordings, writing, interview transcripts and more.
+The research was inspired by a desire to recognise and share the knowledge held by lighting designers about dramaturgy.
+To help practitioners at all career stages find ideas, techniques and approaches to dramaturgy in their own practice. 
+This website exists to share that knowledge with a non-academic audience, encouraging the valuable connection between research and practice.
 
 ### Problems and Improvements
 The site is built using GitHub Pages, and is hosted [@aarblaster/light-dramaturgy](https://github.com/aarblaster/light-dramaturgy), where you can [report an issue](https://github.com/aarblaster/light-dramaturgy/issues) and view the source code for this site.
+The site is powered by [Jekyll](https://jekyllrb.com) and [Academic Pages](https://github.com/academicpages/academicpages.github.io), a fork of [Minimal Mistakes](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/).
 
 ### Referencing
 This project is archived using [Zenodo](https://zenodo.org) the open repository from CERN. 
-To reference this site you can use DOI [10.5281/zenodo.15276039](https://doi.org/10.5281/zenodo.15276039).
+To reference this site you can use DOI [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15684581)
+
+## Tools for Research
+I use a number of tools for managing and conducting my research. I use [Zotero](https://zotoero.org) a free, open source citation manager. 
+I also use [Obsidian](https://obsidian.md) for note taking and writing.
+
+[![The Zotero logo](/images/zotero-logo-128x31.png)](https://zotero.org)
