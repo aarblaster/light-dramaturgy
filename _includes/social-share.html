@@ -12,7 +12,7 @@
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
 
-  <a href="#" class="btn btn--copy" title="Copy link"
+  <a href="#" class="btn btn--copy-link" title="Copy link"
      onclick="event.preventDefault();navigator.clipboard.writeText('{{ site.url }}{{ page.url }}');this.innerText='Copied!';setTimeout(()=>this.innerHTML='<i class=&quot;fas fa-link&quot;></i> Copy Link',1500);">
     <i class="fas fa-link"></i> Copy Link
   </a>
