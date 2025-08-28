@@ -2,7 +2,7 @@
 layout: single
 title:  "Ethics Documents"
 header:
-teaser: ""
+  teaser: ""
 categories: 
   - PhD
 tags:
