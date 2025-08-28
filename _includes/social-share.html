@@ -5,18 +5,15 @@
     <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4>
   {% endif %}
 
-      <a href="#" rel="noreferrer noopener" 
-        target="mastodon" 
-        data-prompt="Please tell me your Mastodon instance" 
-        data-edittext="✏️" 
-        data-editlabel="Edit your Mastodon instance" 
-        class="mastodon-share">
-        Share to Mastodon
-    </a>
-    <script src="mastodon-share.js"></script>
+  {%- assign mastodon_instance = site.mastodon_instance | default: "mastodon.social" -%}
+  <a href="https://{{ mastodon_instance }}/share?text={{ base_path }}{{ page.url }}" class="btn btn--mastodon" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Mastodon"><i class="fab fa-mastodon"></i> Mastodon</a>
 
   <a href="https://bsky.app/intent/compose?text={{ base_path }}{{ page.url }}" class="btn btn--bluesky" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} Bluesky"><i class="fab fa-bluesky"></i> Bluesky</a>
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ base_path }}{{ page.url }}" class="btn btn--linkedin" title="{{ site.data.ui-text[site.locale].share_on_label | default: 'Share on' }} LinkedIn"><i class="fab fa-linkedin"></i> LinkedIn</a>
 
+  <a href="#" class="btn btn--copy" title="Copy link"
+     onclick="event.preventDefault();navigator.clipboard.writeText('{{ site.url }}{{ page.url }}');this.innerText='Copied!';setTimeout(()=>this.innerHTML='<i class=&quot;fas fa-link&quot;></i> Copy Link',1500);">
+    <i class="fas fa-link"></i> Copy Link
+  </a>
 </section>
