@@ -2,7 +2,7 @@
 layout: single
 title:  "Hello World!"
 header:
-teaser: "Unbecomming-0006-banner@0.5x-2.jpg"
+ teaser: "Unbecomming-0006-banner@0.5x-2.jpg"
 categories: 
   - PhD
 tags:
