@@ -1,9 +1,6 @@
 ---
 layout: single
 title:  "Introduction to Interviews"
-header:
- image: 
- teaser: 
 date: 2025-08-30 10:00:00 +0000
 categories: 
   - interviews
