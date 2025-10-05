@@ -14,4 +14,4 @@ tags:
 This is a post to see if I can work out how to post an audio file that will render with a nice player.
 I think i should use Plyr which relies on a bunch of files being brought in from a CDN.
 
-{% include audio.html src="/audio/test_audio_.mp3" %}
+{% include audio.html src="/audio/test_audio.mp3" %}
