@@ -1,3 +1,10 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
-{% include analytics.html %}
+<!-- The script for including Plyr in the site. -->
+<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Initialize all audio and video elements automatically
+      Plyr.setup('audio, video');
+    });
+	</script>
