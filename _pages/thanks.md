@@ -11,7 +11,7 @@ This research wouldn't have been possible without the following people.
 - My colleague and friend [Matt Leventhall](https://mllx.co.uk);
 - RADA Principal Niamh Dowling, who's conversations led to me investigating a PhD;
 - The Lighting Designers who gave me their valuable time;
-- The community of open source developers and researchers, who gave me tools;
+- The community of [open source developers and researchers](/components), who gave me tools;
 - The research participants, Directors, Designers, Electricians, Programmers, Carpenters, Stage Managers, Scenic Artists, Fly Operators, Metal Work Specialists, Costume Makers, WHAM Artists (Wigs, Hair and Makeup), Sound Engineers, Technical and Production Managers, and Prop Makers; who make collaboration possible. 
 
 
