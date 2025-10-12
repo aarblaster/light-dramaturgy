@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Anthony Arblaster"
   pronouns         : "He / Him"  
-  bio              : "PhD Researcher at the University of York."
+  bio              : "Postgraduate Researcher at the University of York"
   location         : "London"
   employer         : "Royal Academy of Dramatic Art"
   uri              : "https://anthonyarblaster.com"
@@ -40,7 +40,7 @@ author:
   orcid            : "https://orcid.org/0009-0005-0404-0645"
   semantic         : # URL
   pubmed           : # URL
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Anthony-Arblaster"
   scopus           : # URL
 
   # Repositories and software development
