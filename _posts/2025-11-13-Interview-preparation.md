@@ -26,7 +26,7 @@ As it turned out I didn't need to make many changes to Jason's script. I work in
 
 I then put this into Script into Keyboard Maestro, for my uses I think a blank entry will work best, so I used a text box to make sure I could input anything into the note, or even leave the text as 'Enter your note here' if I just wanted to return the timestamp so I could easily find a point of interest.
 
-![The Keyboard Maestro macro showing how I trigger the AppleScript.](KM-Interview-noter-input@2x.jpeg)
+![The Keyboard Maestro macro showing how I trigger the AppleScript.](/images/KM-Interview-noter-input@2x.jpeg)
 
 The AppleScript returns a `.txt` file so they are very lightweight and easy to use. I use [BBEdit]() as my text editor of choice, so doing transformations on the text is very easy if I need to in the future. 
 
