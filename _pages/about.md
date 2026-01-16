@@ -10,12 +10,12 @@ redirect_from:
 ![A woman facing into the light with an outstretched hand.](images/Unbecomming-0006-banner@0.5x-2.jpg)
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
-I am originally from [Ngunnawal and Ngambri Country, Australia](/aoc). This site is the home of my PhD at the University of York. 
+I am originally from [Kamberri/Canberra, Australia](/aoc). This site is the home of my PhD at the University of York. 
 The PhD is focused on developing a dramaturgical toolkit for lighting designers. Tools that can be used within their own designs and inside the broader production.
 
 The research will involve interviews with other practicing Lighting Designers, to capture the detail of their processes. Finding out what has worked, but also, crucially, what hasn't. The research will also pull in research from the existing research into dramaturgy by directors, actors and designers. Research that will inform my practice and the work I do inside production processes.
 
-The research is being conducted at the University of York, but is also supported by the [Royal Academy of Dramatic Art (RADA)](https://rada.ac.uk). RADA is providing access to production processes, and support for my research.
+The research is being conducted at the [University of York](https://www.york.ac.uk/arts-creative-technologies/people/postgraduate-researchers/anthony-arblaster/), but is supported by the [Royal Academy of Dramatic Art (RADA)](https://rada.ac.uk). RADA is providing access to production processes, and support for my research.
 
 
 ## About Anthony
@@ -54,6 +54,6 @@ To reference this site you can use DOI [![DOI](https://zenodo.org/badge/96149284
 
 ## Tools for Research
 I use a number of tools for managing and conducting my research. I use [Zotero](https://zotoero.org) a free, open source citation manager. 
-I also use [Obsidian](https://obsidian.md) for note taking and writing.
+I also use [Obsidian](https://obsidian.md) for note taking and writing. All of my research data is being stored in the repository [Zenodo](https://zenodo.org/communities/light-dramaturgy/) which is stored at CERN in Geneva.
 
 [![The Zotero logo](/images/zotero-logo-128x31.png)](https://zotero.org)

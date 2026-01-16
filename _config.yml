@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Light Dramaturgy"
 title_separator          : "-"
 name                     : &name "Anthony Arblaster"
-description              : &description "Lighting Designer and Educator"
+description              : &description "Lighting Designer, Educator, Researcher"
 url                      : https://phd.anthonyarblaster.com # the base hostname & protocol for your site. Has to be the actual URL.
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/aarblaster/light-dramaturgy"
