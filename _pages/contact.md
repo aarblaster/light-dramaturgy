@@ -14,7 +14,7 @@ If your enquiry is about Lighting Design work, please use the contact details at
 ## Contacts for Research Participants
 If you are a participant in this research, and you have further questions or concerns, please feel free to contact the project supervisors. 
 
-**Dr Katherine Graham**, Senior Lecturer in Theatre, School of Arts and Creative Technologies, [katherine.graham@york.ac.uk](mailto:katherine.graham@york.ac.uk)
+[![ORCID Logo](/images/icons/ORCID-Default/ORCID-iD_icon_vector.svg)](https://orcid.org/0000-0002-1044-6837) **Dr Katherine Graham**, Senior Lecturer in Theatre, School of Arts and Creative Technologies, [katherine.graham@york.ac.uk](mailto:katherine.graham@york.ac.uk)
 
 **Dr Rebecca Benzie**, Lecturer in Theatre, School of Arts and Creative Technologies, [rebecca.benzie@york.ac.uk](mailto:rebecca.benzie@york.ac.uk)
 
