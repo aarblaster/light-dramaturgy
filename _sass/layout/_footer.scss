@@ -5,7 +5,8 @@
 .page__footer {
   @include clearfix;
   background-color: var(--global-footer-bg-color);
-  color: var(--global-text-color-light);
+  /* show darker / black text in light (normal) mode */
+  color: var(--global-text-color);
 
   float: left;
   margin-left: 0;
@@ -53,7 +54,8 @@
   .fab,
   .far,
   .fal {
-    color: var(--global-text-color-light);
+    /* use the same darker text colour for icons */
+    color: var(--global-text-color);
   }
 }
 
