@@ -6,7 +6,7 @@ header:
  teaser: "Unbecomming-0006-banner@0.5x-2.jpg"
 date: 2025-11-13
 categories: 
-  - phd
+  - PhD
 tags:
   - Keyboard-Maestro
   - AppleScript
