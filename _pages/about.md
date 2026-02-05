@@ -1,8 +1,9 @@
 ---
 permalink: /
 title: "Light Dramaturgy"
+description: "Light Dramaturgy is the home of Anthony Arblaster's PhD research at the University of York, developing a dramaturgical toolkit for lighting designers in live performance."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about
   - /about.html
 ---
