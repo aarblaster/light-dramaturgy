@@ -21,8 +21,7 @@ The research is being conducted at the [University of York](https://www.york.ac.
 
 ## About Anthony
 I started this PhD in 2025, while teaching at [RADA](https://rada.ac.uk) in London.
-As Deputy Head of Lighting, and Course Leader for the MA Performance Lighting Design, I am jointly responsible for all teaching and learning about lighting in the Academy. Both within Technical Theatre Arts (TTA) programmes, and across the Academy's courses.
-Covering the full range of lighting design and technology, my teaching and research are intertwined.
+As Head of Lighting, and Course Leader for the MA Performance Lighting Design, I am responsible for all teaching and learning about lighting in the Academy. While most of my teaching takes place within Technical Theatre Arts programmes, I also support lighting training across the Academy's courses.
 
 You can find out more about me and my Lighting Design work, at [anthonyarblaster.com.](https://anthonyarblaster.com)
 
