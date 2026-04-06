@@ -12,9 +12,9 @@ If your enquiry is about Lighting Design work, please use the contact details at
 ## Contacts for Research Participants
 If you are a participant in this research, and you have further questions or concerns, please feel free to contact the project supervisors. 
 
-**Dr Katherine Graham**, Senior Lecturer in Theatre, School of Arts and Creative Technologies, [katherine.graham@york.ac.uk](mailto:katherine.graham@york.ac.uk)
+**Dr Katherine Graham**, Senior Lecturer in Theatre, School of Arts and Creative Technologies
 
-**Dr Rebecca Benzie**, Lecturer in Theatre, School of Arts and Creative Technologies, [rebecca.benzie@york.ac.uk](mailto:rebecca.benzie@york.ac.uk)
+**Dr Rebecca Benzie**, Lecturer in Theatre, School of Arts and Creative Technologies
 
 This project is being conducted according to restrictions that have been subject to approval by the School of Arts and Creative Technologies Ethics committee. The Chair of the ACT Ethics committee can be contacted on [ACT-ethics@york.ac.uk](mailto:act-ethics@york.ac.uk) if you have concerns that haven't been met by Anthony or the Supervisors.
 
