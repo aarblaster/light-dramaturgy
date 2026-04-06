@@ -1,0 +1,24 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+env/
+venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Mac OS
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+*.env
+
+# Development config
+_config_dev.yml
