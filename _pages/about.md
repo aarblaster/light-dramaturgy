@@ -8,7 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-![A woman facing into the light with an outstretched hand.](images/Unbecomming-0006-banner@0.5x-2.jpg)
+<figure>
+  <img src="/images/Unbecomming-0006-banner@0.5x-2.jpg" alt="A woman facing into the light with an outstretched hand.">
+  <figcaption>Unbecoming by Cathy Pecotz | Dir: Cathy Pecotz | LD: Anthony Arblaster | Canberra Theatre Centre, Courtyard Studio | Photo: Shelly Higgs | Isobel Burton</figcaption>
+</figure>
 
 Hi, my name is Anthony. I'm a lighting designer for live performance based in London. 
 I am originally from [Kamberri/Canberra, Australia](/aoc). This site is the home of my PhD at the University of York. 

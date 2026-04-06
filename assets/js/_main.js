@@ -120,6 +120,46 @@ $(document).ready(function () {
   // FitVids init
   fitvids();
 
+  // Copy button for code blocks
+  document.querySelectorAll('div.highlighter-rouge, figure.highlight').forEach((block) => {
+    const btn = document.createElement('button');
+    btn.className = 'copy-btn';
+    btn.setAttribute('aria-label', 'Copy code');
+    btn.textContent = '</>';
+    block.appendChild(btn);
+
+    const copyText = () => {
+      const codeEl = block.querySelector('code') || block.querySelector('pre');
+      return codeEl ? codeEl.innerText : '';
+    };
+
+    const showCopied = () => {
+      btn.textContent = '✓';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = '</>';
+        btn.classList.remove('copied');
+      }, 2000);
+    };
+
+    btn.addEventListener('click', () => {
+      const text = copyText();
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(text).then(showCopied);
+      } else {
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand('copy');
+        document.body.removeChild(ta);
+        showCopied();
+      }
+    });
+  });
+
   // Follow menu drop down
   $(".author__urls-wrapper button").on("click", function () {
     $(".author__urls").fadeToggle("fast", function () { });

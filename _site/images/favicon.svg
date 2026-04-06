@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1026.95 1034.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Background">
+    <rect class="cls-2" x=".5" y=".5" width="1025.95" height="1033.62"/>
+  </g>
+  <g id="Text">
+    <path class="cls-1" d="M471.76,117.31h83.43l310.86,800h-74.29l-82.29-216h-392l-82.29,216h-74.29L471.76,117.31ZM687.76,646.45l-171.43-450.28h-5.71l-171.43,450.28h348.57Z"/>
+  </g>
+</svg>

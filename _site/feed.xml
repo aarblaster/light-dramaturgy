@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2026-04-06T17:14:49+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Light Dramaturgy</title><subtitle>Lighting Designer, Educator, Researcher</subtitle><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><entry><title type="html">Transcript Management</title><link href="http://0.0.0.0:4000/phd/Transcript-Management/" rel="alternate" type="text/html" title="Transcript Management" /><published>2026-04-06T00:00:00+00:00</published><updated>2026-04-06T00:00:00+00:00</updated><id>http://0.0.0.0:4000/phd/Transcript-Management</id><content type="html" xml:base="http://0.0.0.0:4000/phd/Transcript-Management/"><![CDATA[<p>Having completed some interviews over Zoom, I found that it was generating a first pass at a transcript for me.
+These were largely reasonably accurate, and certainly close enough that I could identify the errors easily.
+The problem however, is that the transcripts are in the VTT format. While essentially a text file I didn’t want to have to manually go through and remove every time coded reference. Or indeed every time my full name was listed.</p>
+
+<p>So after some podering, a bit of trial and error (with the help of Claude Code with the details of Python) I ended up with a command line tool that I can use to manage the initial reorganisation of these files.
+The usage is, as a result nice a straightforward. Providing the command and the file name in terminal like this, <code class="language-plaintext highlighter-rouge">vtt_process "~/filePath/interview.vtt"</code> results in the transformation script running.</p>
+
+<figure>
+  <img src="/images/2026-04-06-vtt-process-screenshot.jpg" alt="A Terminal window on MacOS showing using the zsh command." />
+  <figcaption>The zsh command in use in Terminal.</figcaption>
+</figure>
+
+<p>Then I get a new file called <code class="language-plaintext highlighter-rouge">interview_edited.txt</code> in the same directory. Ready to be copied and pasted into my word template.
+You can see in the image below, it corrects some common problems in these VTT files. Firstly, it does some basic spelling correction so that I don’t have to redo all the work correcting American English to British English spelling. Particularly for things like ‘colour’ which come up a lot. It also manages to join instances where one person is speaking into a single text block. The VTT files are heavily encoded to time ranges so this was the most significant replacement. 
+I also wanted to remove names. My interviews aren’t anonymous but I wanted the transcripts to be consistent, using ‘I’ for interviewer and ‘R’ for respondent throughout.</p>
+
+<figure>
+  <img src="/images/2026-04-06-transformed-text.jpg" alt="A screenshot of the two text files." />
+  <figcaption>The transformed file is on the left. Compared to the original on the right, the removed text and formatting changes can be seen clearly.</figcaption>
+</figure>
+
+<p>In my first interview I did this by doing a series of search functions on the text file in BBEdit. But this was slow and annoying. 
+The first time I did this it probably took me an hour using BBEdit. The new scripted route, I managed to transform three transcripts in under five minutes. It made this first go at creating a transcript much easier.
+It really helped to make the content digestible so I could follow the logic of the conversation when editing.</p>
+
+<p>The actual code for this is hosted as a <a href="https://gist.github.com/aarblaster">Gist on GitHub</a>.
+It’s two files really, a Python helper that does the real work, and a zsh wrapper that I call from the terminal. 
+I have both in my collection of zsh files incorporated into my ~/.zshrc. 
+The python code is quite long, mostly because of the spelling checks required, which are all hard coded.
+A admittedly inelegant solution, but it works which is all I really care about.</p>
+
+<p>The core of the processing is done in this block, where each of the defined helpers are called. Crucially this is where the default name is set.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/usr/bin/env python3
+
+def main():
+	parser = argparse.ArgumentParser(
+		description='Process a Zoom/Teams .vtt transcript for research use.'
+	)
+	parser.add_argument('input', help='Path to the .vtt file')
+	parser.add_argument(
+		'--self',
+		dest='self_name',
+		default='Rose Tyler', # Change the default name here.
+		metavar='NAME',
+		help='Speaker name to label as I (default: "Rose Tyler")',
+	)
+	args = parser.parse_args()
+
+...
+
+</code></pre></div></div>
+
+<p>The challenge here was to make sure that the bits of text near the individual speaker blocks were managed properly. This took quite a bit of trial and error.
+As you can see above, the code allows you to specify the interviewer name when executed, but if none is provided, it will default to the coded default. Obviously in my copy the default isn’t <code class="language-plaintext highlighter-rouge">Rose Tyler</code>.</p>
+
+<p>All the code is under MIT Licence so go nuts and use it if it’s looks useful.</p>
+
+<p>The full python script is embedded below, where you can see the long spelling block alongside the key helpers.
+The <a href="https://gist.github.com/aarblaster/10d7e3a10fea051e3bd0ea6b50521a00">python gist is here</a> and the <a href="https://gist.github.com/aarblaster/d147b1b886584def6dc6e203f5f90581">zsh wrapper is uploaded here.</a></p>
+
+<script src="https://gist.github.com/aarblaster/10d7e3a10fea051e3bd0ea6b50521a00.js"></script>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="PhD" /><category term="scripting" /><category term="terminal" /><category term="python" /><category term="interviews" /><summary type="html"><![CDATA[Having completed some interviews over Zoom, I found that it was generating a first pass at a transcript for me. These were largely reasonably accurate, and certainly close enough that I could identify the errors easily. The problem however, is that the transcripts are in the VTT format. While essentially a text file I didn’t want to have to manually go through and remove every time coded reference. Or indeed every time my full name was listed.]]></summary></entry><entry><title type="html">Interview Preparation</title><link href="http://0.0.0.0:4000/phd/Interview-preparation/" rel="alternate" type="text/html" title="Interview Preparation" /><published>2025-11-13T00:00:00+00:00</published><updated>2025-11-13T00:00:00+00:00</updated><id>http://0.0.0.0:4000/phd/Interview-preparation</id><content type="html" xml:base="http://0.0.0.0:4000/phd/Interview-preparation/"><![CDATA[<p>As part of my preparation for interviewing, I wanted to make sure I had an easy way of taking digital notes.
+I had previously heard from <a href="https://zeppelin.flights/@jsnell">Jason Snell</a> about how he uses a script combined with Keyboard Maestro to get notes that are timestamped. 
+Jason’s post <a href="https://sixcolors.com/post/2025/03/checking-in-on-podcast-notes/">about his approach can be found on Six Colors</a> and the full script is a <a href="https://gist.github.com/jasonsnell/9b95468474d6cc864d4feb6e2a5ca9cf">GiHub Gist.</a>
+While I’m doing an interview rather than a podcast, I do want audio that is easy to edit. I also wanted a way to easily find material that is useful to my research. So the note taking needed to allow me to do the following:</p>
+<ol>
+  <li>Take a free text note of whatever I liked.</li>
+  <li>Have minimal button presses so it was both easy to remember and also easy to repeat.</li>
+  <li>Be time stamped relative to the <strong>start of the recording,</strong> so I could find the point in the track easily.</li>
+</ol>
+
+<p>As it turned out I didn’t need to make many changes to Jason’s script. I work in 24 hour time, so the date-time calculations needed to use that approach, and I wanted all my date formats to be YYYY-MM-DD.</p>
+
+<p>I then put this into Script into Keyboard Maestro, for my uses I think a blank entry will work best, so I used a text box to make sure I could input anything into the note, or even leave the text as ‘Enter your note here’ if I just wanted to return the timestamp so I could easily find a point of interest.</p>
+
+<p><img src="/images/KM-Interview-noter-input@2x.jpeg" alt="The Keyboard Maestro macro showing how I trigger the AppleScript." /></p>
+
+<p>The AppleScript returns a <code class="language-plaintext highlighter-rouge">.txt</code> file so they are very lightweight and easy to use. I use <a href="">BBEdit</a> as my text editor of choice, so doing transformations on the text is very easy if I need to in the future.</p>
+
+<p>My version of the script can be found <a href="https://gist.github.com/aarblaster/771302ee304c9eb87706f8ce38794b10">as a Gist</a>. You can download a <a href="https://phd.anthonyarblaster.com/files/2025-11-13_Interview-Noter-Input.kmmacros.zip">Keyboard Maestro template here to see how it works.</a></p>
+
+<p>I’m going to try it out on my first interview and see how it goes.</p>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="PhD" /><category term="Keyboard-Maestro" /><category term="AppleScript" /><category term="MacOS" /><category term="interviews" /><summary type="html"><![CDATA[As part of my preparation for interviewing, I wanted to make sure I had an easy way of taking digital notes. I had previously heard from Jason Snell about how he uses a script combined with Keyboard Maestro to get notes that are timestamped. Jason’s post about his approach can be found on Six Colors and the full script is a GiHub Gist. While I’m doing an interview rather than a podcast, I do want audio that is easy to edit. I also wanted a way to easily find material that is useful to my research. So the note taking needed to allow me to do the following: Take a free text note of whatever I liked. Have minimal button presses so it was both easy to remember and also easy to repeat. Be time stamped relative to the start of the recording, so I could find the point in the track easily.]]></summary></entry><entry><title type="html">Audio Test Post</title><link href="http://0.0.0.0:4000/website/audio-test/" rel="alternate" type="text/html" title="Audio Test Post" /><published>2025-10-05T00:00:00+00:00</published><updated>2025-10-05T00:00:00+00:00</updated><id>http://0.0.0.0:4000/website/audio-test</id><content type="html" xml:base="http://0.0.0.0:4000/website/audio-test/"><![CDATA[<p>This is a post to see if I can work out how to post an audio file that will render with a nice player.
+I think i should use Plyr which relies on a bunch of files being brought in from a CDN.</p>
+
+<!-- 
+Include Audio Player from Plyr 
+Simplifies the building of posts in markdown.
+-->
+
+<audio controls="">
+  <source src="/audio/test_audio.mp3" type="audio/mp3" />
+  Your browser does not support the audio element.
+</audio>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="Website" /><category term="audio" /><summary type="html"><![CDATA[This is a post to see if I can work out how to post an audio file that will render with a nice player. I think i should use Plyr which relies on a bunch of files being brought in from a CDN.]]></summary></entry><entry><title type="html">Tools for a PhD</title><link href="http://0.0.0.0:4000/phd/tools/" rel="alternate" type="text/html" title="Tools for a PhD" /><published>2025-08-27T00:00:00+00:00</published><updated>2025-08-27T00:00:00+00:00</updated><id>http://0.0.0.0:4000/phd/tools</id><content type="html" xml:base="http://0.0.0.0:4000/phd/tools/"><![CDATA[<p>There are a number of tools I am using in my PhD, on the off chance sharing them is useful to future researchers.
+I have split up the different tools into the kinds of research activity I am using them for. 
+Generally, I like to use open source tools wherever possible. Avoiding having files locked into a propriatry format is important for ensuring that future practitioners and researchers are able to access materials.</p>
+
+<p><img src="/images/2025-08-28_screenshot-001_2861x1643.jpg" alt="A screenshot of the website on 28/08/2025" /></p>
+
+<h2 id="tools-for-writing">Tools for Writing</h2>
+<p>I’m thinking her of writing in the broadest sence. Note taking, referencing and more.</p>
+
+<h3 id="zotero">Zotero</h3>
+<p><a href="https://zotero.org">Zotero</a> is a free, opensource citation manager. I have found it extremely useful, particularly because of the ease of finding excellent plugins to help solve problems. 
+These make sure that if you have a problem, or a use case that isn’t in the core software, someone has probably found a solution.</p>
+
+<p>I am using the following plugins at the moment:</p>
+<ul>
+  <li><a href="https://github.com/windingwind/zotero-actions-tags#readme">Actions and Tags for Zotero</a> to easily apply tags like <code class="language-plaintext highlighter-rouge">/toread</code> when I add a new resource, or to bulk edit so that all the <code class="language-plaintext highlighter-rouge">Version: First</code> can be turned into <code class="language-plaintext highlighter-rouge">1</code>.</li>
+  <li><a href="https://github.com/retorquere/zotero-better-bibtex">BetterBibTeX</a> to allow easy integration with Obsidian.</li>
+  <li><a href="https://github.com/bwiernik/zotero-shortdoi">DOI Manager</a> to make formatting DOIs easy.</li>
+</ul>
+
+<p>These all make a massive difference (particularly Actions and Tags for Zotero) to my Zotero work flows. Actions and Tags has particularly helped me keep track of the things that I still need to read. Combined with Zotero’s colour options for tags, my ability to keep track of resources has massively improved.</p>
+
+<h3 id="obsidian">Obsidian</h3>
+<p>I have been using <a href="https://obsidian.md">Obsidian</a> for all my note taking. Lots has been written about Obsidian for note taking, and it’s power. I have been finding that the extensible nature, combined with easy linking helps me to keep track of ideas and notes. Mostly I was looking for a solution to the ‘where did I write that’ problem.
+Obsidian plugins are really useful, and similarly to Zotero the extensible nature of the app helps to solve lots of problems.
+The plugins I’m using at the moment are:</p>
+<ul>
+  <li><a href="https://github.com/lukeleppan/better-word-count">Better Word Count</a>, for a nicer word count.</li>
+  <li><a href="https://github.com/vslinko/obsidian-outliner">Outliner</a>, for an outline of my documents.</li>
+  <li><a href="https://github.com/mgmeyers/obsidian-pandoc-reference-list">Pandoc Reference List</a>, for an easy list of references.</li>
+  <li><a href="https://github.com/RyotaUshio/obsidian-pdf-plus">PDF+</a>, exporting PDFs is the name, exporing PDFs is the game.</li>
+  <li><a href="https://github.com/mgmeyers/obsidian-zotero-integration">Zotero Integration</a>, does what is says on the tin.</li>
+</ul>
+
+<p>These plugins are mostly self-explanatory, except for the fact that Pandoc Reference List and the Zotero Plugin work together, so that I get references in my writing but also an easy way to review the references in any given document. It also helps with the export to PDF functionality in PDF+.</p>
+
+<h2 id="tools-for-practice">Tools for Practice</h2>
+<p>I make use of some key tools for my practice, which will continue into this research. They include:</p>
+<ul>
+  <li>My trusty MacBook Pro;</li>
+  <li><a href="https://stamp.xyz">Stamp</a>, a video notation tool, helping me to take notes on my own work;</li>
+  <li>A cheap webcam, because I don’t need massive files (currently I’m using the Logitech C920 HD Pro from 2017!);</li>
+  <li>And of course, a pencil and a script. Some things are easier on paper.</li>
+</ul>
+
+<p>I am thinking about upgrading my webcam, not only because it is old, but also to spend less time trying to get the exposure right. Plus the Logitech C920 was never great at low light…</p>
+
+<h2 id="tools-for-the-website">Tools for the Website</h2>
+<p>This website is built using <a href="https://docs.github.com/en/pages">Github Pages</a>, a free hosting service. It is powered by <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a>.
+I edit the files for the site using <a href="https://www.barebones.com/products/bbedit/index.html">BBEdit</a>, which as promised, doesn’t suck.
+These tools make the site lightweight and easy to maintain. Crucially, they also make sure that it is almost free to run.
+To get my own domain, I already pay for <a href="https://anthonyarblaster.com">anthonyarblaster.com</a> so adding a sub-domain with <a href="https://hover.com">Hover</a>, was really easy.</p>
+
+<p>I don’t currently test the site locally. 
+I’ve tried setting it up using Homebrew but I haven’t quite got it sussed yet. 
+As the site is now up and running through trial and error, I will probably not bother.
+I can add content fairly easily so I’m not too worried at the moment.</p>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="PhD" /><category term="software" /><category term="phd-process" /><category term="zotero" /><category term="obsidian" /><category term="github-pages" /><category term="research" /><category term="bbedit" /><category term="stamp" /><category term="hover" /><summary type="html"><![CDATA[There are a number of tools I am using in my PhD, on the off chance sharing them is useful to future researchers. I have split up the different tools into the kinds of research activity I am using them for. Generally, I like to use open source tools wherever possible. Avoiding having files locked into a propriatry format is important for ensuring that future practitioners and researchers are able to access materials.]]></summary></entry><entry><title type="html">Ethics Documents</title><link href="http://0.0.0.0:4000/phd/Ethics-Documents/" rel="alternate" type="text/html" title="Ethics Documents" /><published>2025-08-23T00:00:00+00:00</published><updated>2025-08-23T00:00:00+00:00</updated><id>http://0.0.0.0:4000/phd/Ethics-Documents</id><content type="html" xml:base="http://0.0.0.0:4000/phd/Ethics-Documents/"><![CDATA[<p>I have successfully received ethics approval for my PhD. 
+To ensure participants can access the Participant Information Sheets easily and for posterity, I thought it would be a good idea to have them available on this site.</p>
+
+<p>The following files are available:</p>
+<ul>
+  <li><a href="/files/2025-08-18_Participant_Project_Information_Sheet_-Non-Anonymous-_Staff_And_Pgr_Act_June2024_Arblaster.pdf">Interview Participant Information Sheet</a></li>
+  <li><a href="/files/2025-08-18_Participant_Project_Information_Sheet_Staff_And_Pgr_Act_June2024_Arblaster_Pbr.pdf">Practice-Based Research Participant Information Sheet</a></li>
+  <li><a href="/files/2025-08-18_Information_For_Participants_Covered_By_A_Release_Form_Arblaster.pdf">Information Sheet for Participants Covered by a Release Form</a></li>
+</ul>
+
+<p>If you are participating, you can also receive a copy from the researcher by emailing me at <a href="mailto:czw527@york.ac.uk">czw527@york.ac.uk</a>. 
+I will also be happy to answer any questions you have about the research and your participation.
+You can also use any of the contact information on the information sheets.</p>
+
+<p>This PhD is being supervised by <a href="https://www.york.ac.uk/arts-creative-technologies/people/katherine/">Dr Katherine Graham</a> and <a href="https://www.york.ac.uk/arts-creative-technologies/people/rebecca-benzie/">Dr Rebecca Benzie</a>, both at the School of Arts and Creative Technologies (ACT).</p>
+
+<p>This project is being conducted according to restrictions that have been subject to approval by the School of Arts and Creative Technologies Ethics committee. The Chair of the ACT Ethics committee can be contacted on <a href="mailto:act-ethics@york.ac.uk">ACT-ethics@york.ac.uk</a>.</p>
+
+<p>Participation in this research is essential to it’s success. If you have consented to participate — thank you!</p>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="PhD" /><category term="ethics" /><category term="phd-process" /><summary type="html"><![CDATA[I have successfully received ethics approval for my PhD. To ensure participants can access the Participant Information Sheets easily and for posterity, I thought it would be a good idea to have them available on this site.]]></summary></entry><entry><title type="html">Test Post</title><link href="http://0.0.0.0:4000/website/test-post/" rel="alternate" type="text/html" title="Test Post" /><published>2025-08-01T10:00:00+00:00</published><updated>2025-08-01T10:00:00+00:00</updated><id>http://0.0.0.0:4000/website/test-post</id><content type="html" xml:base="http://0.0.0.0:4000/website/test-post/"><![CDATA[<p>This is a post to see if I can work out how the frontmatter renders in this theme.
+I have included the following frontmatter</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!YAML 
+---
+layout: single
+title:  "Test Post"
+header:
+ image: 
+ teaser: "Unbecomming-0006-banner@0.5x-2.jpg"
+date: 2025-08-01 10:00:00 +0000
+categories: 
+  - website
+tags:
+  - software
+---
+</code></pre></div></div>
+
+<p>The items I am trying are specifying the date and time, including a header.
+I’ll try a teaser as well just for the sake of experimenting.</p>
+
+<p>I also tried changing the date. I’ve changed the date back to <code class="language-plaintext highlighter-rouge">2025-08-29</code> and tried a different arrangement of <code class="language-plaintext highlighter-rouge">image</code>.
+Let’s see if that works at all.</p>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="Website" /><category term="software" /><summary type="html"><![CDATA[This is a post to see if I can work out how the frontmatter renders in this theme. I have included the following frontmatter]]></summary></entry><entry><title type="html">Hello World!</title><link href="http://0.0.0.0:4000/phd/Hello-World/" rel="alternate" type="text/html" title="Hello World!" /><published>2025-05-21T00:00:00+00:00</published><updated>2025-05-21T00:00:00+00:00</updated><id>http://0.0.0.0:4000/phd/Hello-World</id><content type="html" xml:base="http://0.0.0.0:4000/phd/Hello-World/"><![CDATA[<p>This is the first blog post on this site as a proof of concept. 
+As the site gets more complex I am expecting that these posts will become a way of sharing materials from my PhD.
+I am also hoping that this will offer me a way of reflecting on the process of doing the PhD.</p>
+
+<h2 id="where-i-am-up-to">Where I am up to</h2>
+<p>So far I have been researching the methodology I will use for the PhD, that’s proving really interesting. 
+It’s providing me with a framework for thinking about the research. The PhD is focused on the process of creating a lighting design.
+I’m therefore more interested than I expected in the <strong>process</strong> of doing the PhD.</p>
+
+<p>I have also been starting the ethics process. Both researching and writing about the ethical components of the research.
+That is the main focus for my next meeting with my supervisors.</p>]]></content><author><name>Anthony Arblaster</name><email>czw527@york.ac.uk</email><uri>https://anthonyarblaster.com</uri></author><category term="PhD" /><category term="dramaturgy" /><category term="lighting-design" /><summary type="html"><![CDATA[This is the first blog post on this site as a proof of concept. As the site gets more complex I am expecting that these posts will become a way of sharing materials from my PhD. I am also hoping that this will offer me a way of reflecting on the process of doing the PhD.]]></summary></entry></feed>
