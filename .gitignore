@@ -19,3 +19,6 @@ venv/
 # Environment variables
 .env
 *.env
+
+# Development config
+_config_dev.yml
