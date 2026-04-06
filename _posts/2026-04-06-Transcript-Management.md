@@ -30,7 +30,6 @@ Then I get a new file called `interview_edited.txt` in the same directory. Ready
 You can see in the image below, it corrects some common problems in these VTT files. Firstly, it does some basic spelling correction so that I don't have to redo all the work correcting American English to British English spelling. Particularly for things like 'colour' which come up a lot. It also manages to join instances where one person is speaking into a single text block. The VTT files are heavily encoded to time ranges so this was the most significant replacement. 
 I also wanted to remove names. My interviews aren't anonymous but I wanted the transcripts to be consistent, using 'I' for interviewer and 'R' for respondent throughout. 
 
-![A sisde by side screenshot of the two files.](/images/2026-04-06-transformed-text.jpg)
 <figure>
   <img src="/images/2026-04-06-transformed-text.jpg" alt="A screenshot of the two text files.">
   <figcaption>The transformed file is on the left. Compared to the original on the right, the removed text and formatting changes can be seen clearly.</figcaption>
