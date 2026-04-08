@@ -23,4 +23,5 @@ venv/
 # Development config
 _config_dev.yml
 
-claude.md
+# Managing AI agents
+CLAUDE.md
