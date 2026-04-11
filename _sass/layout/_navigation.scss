@@ -385,7 +385,7 @@
   color: var(--global-text-color-light);
   text-transform: uppercase;
   letter-spacing: 1px;
-  background-color: #fff;
+  background-color: var(--global-bg-color);
   border: 1px solid var(--global-border-color);
   border-radius: $border-radius;
   box-shadow: $box-shadow;
@@ -417,8 +417,8 @@
     text-decoration-line: none !important;
 
     &:hover {
-      color: #000;
-      background: var(--global-link-color-hover);
+      color: #fff;
+      background: #3d4144;
     }
   }
 
@@ -439,6 +439,28 @@
 
     @include breakpoint($medium) {
       display: block;
+    }
+  }
+}
+
+/* Dark mode overrides for table of contents */
+html[data-theme="dark"] {
+  .toc {
+    border-color: var(--global-text-color);
+
+    .nav__title {
+      background: #636363;
+    }
+  }
+
+  .toc__menu {
+    a {
+      border-bottom-color: var(--global-text-color);
+
+      &:hover {
+        color: #3d4144;
+        background: #ffffff;
+      }
     }
   }
 }
