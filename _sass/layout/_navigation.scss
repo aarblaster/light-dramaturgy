@@ -391,9 +391,9 @@
   box-shadow: $box-shadow;
 
   .nav__title {
-    color: #fff;
+    color: #000;
     font-size: $type-size-6;
-    background: var(--global-base-color);
+    background: var(--global-dark-border-color);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
@@ -449,6 +449,7 @@ html[data-theme="dark"] {
     border-color: var(--global-text-color);
 
     .nav__title {
+      color: #fff;
       background: #636363;
     }
   }
