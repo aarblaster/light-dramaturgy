@@ -25,3 +25,4 @@ _config_dev.yml
 
 # Managing AI agents
 CLAUDE.md
+.claude/
