@@ -1,4 +1,6 @@
 [![DOI](https://zenodo.org/badge/961492842.svg)](https://doi.org/10.5281/zenodo.15684581)
+![Static Badge](https://img.shields.io/badge/license-CC%20BY--NC%204.0-red)
+
 
 # Welcome
 This is the source files for the website [phd.anthonyarblaster.com](https://phd.anthonyarblaster.com). 
